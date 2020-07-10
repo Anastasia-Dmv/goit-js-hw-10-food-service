@@ -9,10 +9,26 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" src="dist/basicLightbox.min.css">
     <link rel="stylesheet" src="styles.css" />
   </head>
   <body>
     <div class="toolbar">
+
+      <button class="js-button"  type="button" data-open-modal>
+        <i class="material-icons button__icon  js-button-cart">
+          shopping_cart
+        </i>
+      </button>
+
+      <template id ="modal">
+        <div class="modal">
+          <p class="text-in-cart">modal window cart</p>
+          <button type ="button"  data-close-modal>close cart</button>
+        </div>
+      </template>
+
+
       <!-- Разметка переключателя темы -->
       <div class="theme-switch">
         <svg
@@ -65,5 +81,6 @@
 
     <!-- В этот список рендери разметку меню -->
     <ul class="menu js-menu"></ul>
+    <div id="cart_content"></div>
   </body>
 </html>

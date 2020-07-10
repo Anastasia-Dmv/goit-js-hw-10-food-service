@@ -229,3 +229,54 @@ body.dark-theme {
 .button__icon {
   margin-right: 8px;
 }
+
+
+/* -------- */
+.js-button-cart{
+  display:inline-block;
+  width: 50px;
+  
+  
+}
+.js-button:hover {
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+  background-color: #2196f3;
+}
+
+.js-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  
+  border: 0;
+  outline: 0;
+  padding: 4px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+  font: inherit;
+  font-weight: 500;
+  user-select: none;
+  transition: background-color 200ms ease-in-out;
+
+
+  
+ display: block;
+ margin-left: auto;
+ margin-top: 4px;
+ 
+
+}
+.modal{
+  padding: 1.8rem 2.16rem .9rem;
+    width: 550px;
+    max-width: 1300px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+.text-in-cart{
+  color:blue;
+}
