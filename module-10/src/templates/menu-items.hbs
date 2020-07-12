@@ -1,6 +1,6 @@
 {{#each this}}
 
-<li class="menu__item"  id="{{id}}">
+<li class="menu__item"  data-id="{{id}}">
   <div class="card">
     <img
       src="{{image}}"
@@ -28,7 +28,7 @@
       </ul>
     </div>
 
-    <button class="card__button button">
+    <button class="card__button button" data-btn="cartBtn">
       <i class="material-icons button__icon">
         shopping_cart
       </i>
